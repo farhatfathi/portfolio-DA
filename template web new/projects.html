@@ -44,32 +44,52 @@
                   <div class="col-lg-11 col-xl-9 col-xxl-8">
             
                     <!-- Project Card -->
+                    <!-- Project Card with 2 Previewable Images -->
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                       <div class="card-body p-0">
                         <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
-                          
+                    
                           <!-- Deskripsi -->
                           <div class="p-4 w-100">
-                            <h2 class="fw-bolder">Direct Sales Dashboard</h2>
-                            <p>Developed a dashboard using Tableau and Power BI to visualize direct ticket sales from the digital platform. The dashboard supported weekly reporting and strategic discussions within the Commercial Division.</p>
+                            <h4 class="fw-bold">Direct Sales Dashboard</h4>
+                            <p>Dashboards to visualize the ticket sales from Pelita Air’s direct channel. The dashboard supported monthly reporting and strategic discussions within the Commercial Regular Division. We built two version of the dashboard, one was for management, and other for internal team which bring deeper analysis in various chart and number.</p>
+                            
+                            <!-- Thumbnails Row -->
+                            <div class="d-flex gap-3">
+                              <!-- Gambar 1 -->
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#previewModalImg1">
+                                <img src="assets/IP sales.png" alt="Direct Sales Dashboard 1"
+                                  style="max-width: 160px; max-height: 100px; object-fit: cover; border-radius: 0.5rem; cursor: zoom-in;" />
+                              </a>
+                              <!-- Gambar 2 -->
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#previewModalImg2">
+                                <img src="assets/IP google sales.png" alt="Direct Sales Dashboard 2"
+                                  style="max-width: 160px; max-height: 100px; object-fit: cover; border-radius: 0.5rem; cursor: zoom-in;" />
+                              </a>
+                            </div>
                           </div>
-            
-                          <!-- Thumbnail Gambar yang Bisa Diklik -->
-                          <a href="#" data-bs-toggle="modal" data-bs-target="#previewModalSales">
-                            <img src="assets/IP sales.png" alt="Direct Sales Dashboard"
-                              style="max-width: 180px; max-height: 120px; object-fit: cover; border-radius: 0.5rem; margin-right: 1rem; cursor: zoom-in;" />
-                          </a>
-            
+                    
                         </div>
                       </div>
                     </div>
-            
-                    <!-- Modal Pop-up Preview -->
-                    <div class="modal fade" id="previewModalSales" tabindex="-1" aria-labelledby="previewModalSalesLabel" aria-hidden="true">
+                    
+                    <!-- Modal Preview untuk Gambar 1 -->
+                    <div class="modal fade" id="previewModalImg1" tabindex="-1" aria-hidden="true">
                       <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content bg-transparent border-0">
                           <div class="modal-body p-0">
-                            <img src="assets/IP sales.png" class="img-fluid rounded-4 shadow" alt="Direct Sales Dashboard Preview" />
+                            <img src="assets/IP sales.png" class="img-fluid rounded-4 shadow" alt="Preview 1" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Modal Preview untuk Gambar 2 -->
+                    <div class="modal fade" id="previewModalImg2" tabindex="-1" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content bg-transparent border-0">
+                          <div class="modal-body p-0">
+                            <img src="assets/IP sales.png" class="img-fluid rounded-4 shadow" alt="Preview 2" />
                           </div>
                         </div>
                       </div>
